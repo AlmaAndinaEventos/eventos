@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>Alma Andina - Fundo Ecoturístico</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/iconhtml.jpg">
+
+    <!-- Core Stylesheet -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Responsive CSS -->
+    <link href="css/responsive/responsive.css" rel="stylesheet">
+
+
+
+
+    <style>    
+        .main {
+          width: 100vw;
+          height: 100vh;
+          overflow: hidden;
+        }
+        
+        .video-box {
+          width: 100%;
+          max-width: 720px;
+          height: auto;
+          margin: 100px auto 0;
+        }
+        .video {
+          position: relative;
+          height: 0;
+          padding-top: 70%;
+          margin-left: 10px;
+          margin-right: 20px;
+        }
+    
+        
+        .video video {
+          width: 100%;
+          height: auto;
+        }
+        
+        .video iframe {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+        }
+    
+        </style>
+
+
+
+
+
+
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="caviar-load"></div>
+        <div class="preload-icons">
+            <img class="preload-1" src="img/core-img/preload-1.png" alt="">
+            <img class="preload-2" src="img/core-img/preload-2.png" alt="">
+            <img class="preload-3" src="img/core-img/preload-3.png" alt="">
+        </div>
+    </div>
+
+    <!-- ***** Search Form Area ***** -->
+    <div class="caviar-search-form d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="search-close-btn" id="closeBtn">
+                        <i class="pe-7s-close-circle" aria-hidden="true"></i>
+                    </div>
+                    <form action="#" method="get">
+                        <input type="search" name="caviarSearch" id="search" placeholder="Search Your Favourite Dish ...">
+                        <input type="submit" class="d-none" value="submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ***** Header Area Start ***** -->
+    <header class="header_area" id="header">
+        <div class="container h-100">
+            <div class="row h-100">
+                <div class="col-12 h-100">
+                    <nav class="h-100 navbar navbar-expand-lg align-items-center">
+                        <a class="navbar-brand" href="index.html">ALMA ANDINA<br> Fundo-Ecoturístico</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#caviarNav" aria-controls="caviarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="fa fa-bars"></span></button>
+                        <div class="collapse navbar-collapse" id="caviarNav">
+                            <ul class="navbar-nav ml-auto" id="caviarMenu">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#home">Inicio <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Navegar</a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="index.html">Inicio</a>
+                                        <a class="dropdown-item" href="">Gastronomía</a>
+                                        <a class="dropdown-item" href="regular-page.html">AYAHUAMOR</a>
+                                        <a class="dropdown-item" href="contact.html">Contáctenos</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#about">Eventos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#menu">Gastronomía</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#Galeria">Galería</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#awards">Auspicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#testimonial">Opiniones</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#reservation">Reservar</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contáctenos</a>
+                                </li>
+                            </ul>
+                            <!-- Search Btn -->
+                            <div class="caviar-search-btn">
+                                <a id="search-btn" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <!-- ****** Welcome Area Start ****** -->
+    <section class="caviar-hero-area" id="home">
+        <!-- Welcome Social Info -->
+        <div class="welcome-social-info">
+            <a href="https://www.facebook.com/AlmaAndinaPeru/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="#" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        </div>
+
+
+
+
+        <!-- Welcome Slides -->
+        <div class="caviar-hero-slides owl-carousel">
+            <!-- Single Slides -->
+            <div class="single-hero-slides bg-img" style="background-image: url(img/bg-img/hero-1.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-11 col-md-6 col-lg-4">
+                            <div class="hero-content">
+                                <h2>Bienvenido</h2>
+                                <p>Disfruta de lo mejor,  escápate de la rutina y encuentra todo en un solo lugar: Buena comida, Aire libre🍃, buen ambiente🌞, espacios recreativos🤾.</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slider Nav -->
+                <div class="hero-slides-nav bg-img" style="background-image: url(img/bg-img/hero-2.jpg);"></div>
+            </div>
+            <!-- Single Slides -->
+            <div class="single-hero-slides bg-img" style="background-image: url(img/bg-img/hero-2.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-11 col-md-6 col-lg-4">
+                            <div class="hero-content">
+                                <h2>Eventos</h2>
+                                <p>Alquiler de Bungalows y de todo el Fundo para vacaciones (casa y exteriores, más de 5. hectáreas para grupos de hasta 20 personas) y alquiler de espacios para eventos empresariales y sociales.</p>
+                                <a href="https://api.whatsapp.com/send?phone=51978581551&app=facebook&entry_point=page_cta&fbclid=IwAR2rMmOOFO2BMWb5foDXu76hmfunQoBTjlXT-aNMrCMwRAOPrzOR0T6WB1g" class="btn caviar-btn" target="_blank"><span></span> Reservar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slider Nav -->
+                <div class="hero-slides-nav bg-img" style="background-image: url(img/bg-img/hero-3.jpg);"></div>
+            </div>
+
+            <div class="single-hero-slides bg-img" style="background-image: url(img/bg-img/hero-3.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-11 col-md-6 col-lg-4">
+                            <div class="hero-content">
+                                <h2>Gastronomía</h2>
+                                <p> Lo𝒔 𝒆𝒔𝒑𝒆𝒓𝒂𝒎𝒐𝒔 en el "𝑭𝒖𝒏𝒅𝒐 𝑨𝑳𝑴𝑨 𝑨𝑵𝑫𝑰𝑵𝑨"
+                                    𝐏𝐚𝐫𝐚 𝐜𝐨𝐦𝐩𝐚𝐫𝐭𝐢𝐫 𝐜𝐨𝐧 𝐭𝐨𝐝𝐚 𝐥𝐚 𝐟𝐚𝐦𝐢𝐥𝐢𝐚 𝐲 𝐚𝐦𝐢𝐠𝐨𝐬 𝐬𝐨𝐥𝐨 𝐧𝐞𝐜𝐞𝐬𝐢𝐭𝐚𝐬 𝐢𝐫 𝐚𝐥 𝐜𝐚𝐦𝐩𝐨 🍃, en 𝐀𝐋𝐌𝐀 𝐀𝐍𝐃𝐈𝐍𝐀 𝐩𝐨𝐝𝐫á𝐬 𝐩𝐚𝐬𝐚𝐫 𝐮𝐧 𝐞𝐱𝐞𝐥𝐞𝐧𝐭𝐞 𝐦𝐨𝐦𝐞𝐧𝐭𝐨 𝐲 𝐝𝐢𝐬𝐟𝐫𝐮𝐭𝐚𝐫 𝐝𝐞 𝐥𝐚 𝐦𝐞𝐣𝐨𝐫 𝐜𝐨𝐦𝐢𝐝𝐚 𝐩𝐞𝐫𝐮𝐚𝐧𝐚 𝐞𝐧 𝐮𝐧 𝐚𝐦𝐛𝐢𝐞𝐧𝐭𝐞 ú𝐧𝐢𝐜𝐨.</p>
+                                <a href="https://api.whatsapp.com/send?phone=51978581551&app=facebook&entry_point=page_cta&fbclid=IwAR2rMmOOFO2BMWb5foDXu76hmfunQoBTjlXT-aNMrCMwRAOPrzOR0T6WB1g" class="btn caviar-btn" target="_blank" class="btn caviar-btn"><span></span> Reservar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Slider Nav -->
+                <div class="hero-slides-nav bg-img" style="background-image: url(img/bg-img/hero-1.jpg);"></div>
+            </div>
+        </div>
+    </section>
+
+    <div class="main">
+        
+        <div class="video-box">
+          <div class="video">
+
+            
+            
+            <iframe  width="640" height="480" allow="autoplay" src="https://drive.google.com/file/d/17FKOywKFgY8HwQaCo14LFCx7hW00oHpM/preview" frameborder="0" ; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+        
+    </div>
+    <!-- ****** Welcome Area End ****** -->
+
+    <!-- ****** About Us Area Start ****** -->
+    <section class="caviar-about-us-area section-padding-150" id="about">
+        <div class="container">
+            <!-- EVENTOS 1 -->
+
+            <div class="row align-items-center">
+                <div class="col-12 col-md-6">
+                    <div class="about-us-thumbnail wow fadeInUp" data-wow-delay="0.5s">
+                        <img src="img/bg-img/hero-4.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-5 ml-md-auto">
+                    <div class="section-heading">
+                        <h2>Eventos</h2>
+                    </div>
+                    <div class="about-us-content">
+                        <span>"𝐁𝐔𝐍𝐆𝐀𝐋𝐎𝐖𝐒 𝐌𝐀𝐓𝐑𝐈𝐌𝐎𝐍𝐈𝐀𝐋𝐄𝐒" &   ❞𝗕𝗨𝗡𝗚𝗔𝗟𝗢𝗪𝗦 𝗙𝗔𝗠𝗜𝗟𝗜𝗔𝗥𝗘𝗦❞</span>
+                        <p><b> Escápate de la ciudad y ven al paraíso escondido de #Jauja 👈
+                            Disfruta con la familia o esa persona especial y visita el Fundo Ecoturístico ALMA ANDINA</b> <br>#HOSPEDAJE #RESTAURANTE #FULLDAY 
+                            #EVENTOS<br>
+                            .<br>
+                            .<br>
+                            
+                            .<br>
+                            .</p>
+                    </div>
+                </div>
+            </div>
+            <!--Eventos 1-->
+            <div class="row align-items-center">
+                <div class="col-12 col-md-6">
+                    <div class="about-us-thumbnail wow fadeInUp" data-wow-delay="0.5s">
+                        <img src="img/bg-img/hero-5.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-5 ml-md-auto">
+                    <div class="section-heading">
+                        <h2></h2>
+                    </div>
+                    <div class="about-us-content">
+                        <span>Incluye:</span>
+                        <p>
+                           <b> ✅ Welcome Drink<br>
+                            ✅ Alojamiento<br>
+                            ✅ Desayuno<br>
+                            ✅ Parking<br>
+                            y mucho más...<br><br>
+                        <span>▶ Ofrecemos:</span>
+                            ✔45,000 M2 de áreas verdes<br>
+✔Juegos para niños<br>
+✔Fulbito de mano<br>
+✔Fulbito y Voley<br>
+y mucho más...</b><br>
+                            </p>
+                    </div>
+                </div>
+            </div>            
+            <!-- EVENTOS 2 -->
+            <div class="about-us-second-part">
+                <div class="row align-items-center pt-200">
+                    <div class="col-12 col-md-6 col-lg-5">
+                        <div class="about-us-content">
+                            <span>¿Buscas un lugar así?</span>
+                            <p><b>* Cumplimos todos los protocolos de seguridad.<br>
+                                * Solicita los términos y condiciones<br>
+                                * Las reservas son con previo pago anticipado y confirmación por el establecimiento vía whatsApp.<br>
+                                📆 Reservas:
+                                📲 978581551</b><br></p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 ml-md-auto">
+                        <div class="about-us-thumbnail wow fadeInUp" data-wow-delay="0.5s">
+                            <img src="img/bg-img/hero-6.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Eventos 1-->
+            <div class="row align-items-center">
+                <div class="col-12 col-md-6">
+                    <div class="about-us-thumbnail wow fadeInUp" data-wow-delay="0.5s">
+                        <img src="img/bg-img/hero-8.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-5 ml-md-auto">
+                    <div class="section-heading">
+                        <h2></h2>
+                    </div>
+                    <div class="about-us-content">
+                        <span>
+                            Disfuta en familia
+                        </span>
+                        <p><b>* Al aire libre 🍃<br>
+                            * Ambiente 100% peruano 🇵🇪<br>
+                            * Excelente comida😋<br>
+                            * Espacios para toda la familia 👨‍👩‍👧‍👧 <br>
+                            📆Te esperamos de lunes a domingo de 9:30 am a 5:30 pm.<br>
+                            📲Reservas  al: 978581551<br>
+                            ✅ Cumplimiento de todos los protocolos de bioseguridad.</b></p>
+                    </div>
+                </div>
+            </div>       
+                        <!--Eventos 1-->
+            <div class="row align-items-center">
+                <div class="col-12 col-md-6">
+                    <div class="about-us-thumbnail wow fadeInUp" data-wow-delay="0.5s">
+                        <img src="img/bg-img/hero-9.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-5 ml-md-auto">
+                    <div class="section-heading">
+                        <h2></h2>
+                    </div>
+                    <div class="about-us-content">
+                        <span>Camino al "𝐹𝑢𝑛𝑑𝑜 𝐴𝑙𝑚𝑎 𝐴𝑛𝑑𝑖𝑛𝑎".💚</span>
+                        <p><b>  "𝐹𝑢𝑛𝑑𝑜 𝐴𝑙𝑚𝑎 𝐴𝑛𝑑𝑖𝑛𝑎".💚<br>
+                            
+                            
+                            Los esperamos con la calidad y el cariño de siempre <br>
+                            .
+                            .
+                            . </b></p>
+                    </div>
+                </div>
+            </div> 
+                  
+        </div>
+    </section>
+    <!-- ****** About Us Area End ****** -->
+
+    <!-- ****** Dish Menu Area Start ****** -->
+    <section class="caviar-dish-menu" id="menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 menu-heading">
+                    <div class="section-heading text-center">
+                        <h2>Gastronomía</h2>
+                    </div>
+                    <!-- btn -->
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="caviar-single-dish wow fadeInUp" data-wow-delay="0.5s">
+                        <a href="menu.html"><img src="img/menu-img/comida.jpg" alt=""></a>
+                        <div class="dish-info">
+                            <a href="menu.html"><h6 class="dish-name">Pachamanca -----------<br>-----</h6></a>
+                            <a href="https://www.facebook.com/messages/t/105988204950925"><p class="dish-price" >💚</p></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="caviar-single-dish wow fadeInUp" data-wow-delay="0.5s">
+                        <a href="menu.html"><img src="img/menu-img/hero-3.jpg" alt=""></a>
+                        <div class="dish-info">
+                            <a href="menu.html"><h6 class="dish-name">Caldo de Gallina<br>-----------</h6></a>
+                            <a href="https://www.facebook.com/messages/t/105988204950925"><p class="dish-price" >💚</p></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="caviar-single-dish wow fadeInUp" data-wow-delay="0.5s">
+                        <a href="menu.html"><img src="img/menu-img/comida3.jpg" alt=""></a>
+                        <div class="dish-info">
+                            <a href="menu.html"><h6 class="dish-name">Desayunos -------------<br>-----</h6></a>
+                            <a href="https://www.facebook.com/messages/t/105988204950925"><p class="dish-price" >💚</p></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://www.facebook.com/AlmaAndinaPeru/photos/361875629362180" class="btn caviar-btn"><span></span> Ver más</a>
+            </div>
+        </div>
+    </section>
+    <!-- ****** FINAREAMENU ****** -->
+
+    <!-- ****** AUSPICIO ****** -->
+    <div id="Galeria"></div>
+    <div id="briefcase"></div>
+    <section class="briefcase">
+        <div class="briefcase-section container">
+            <h2><span>| Galería |</span> </h2>
+            <div class="briefcase-grid">
+                <div><a data-modal-id=""><img src="./img/bg-img/hero-1.jpg" alt=""></a></div>
+                <div><a data-modal-id=""><img src="./img/bg-img/hero10.jpg" alt=""></a></div>
+                <div><a data-modal-id=""><img src="./img/bg-img/hero11.jpg" alt=""></a></div>
+                <div><a data-modal-id=""><img src="./img/bg-img/hero12.jpg" alt=""></a></div>
+                <div><a data-modal-id=""><img src="./img/bg-img/hero13.jpg" alt=""></a></div>
+                <div><a data-modal-id=""><img src="./img/bg-img/hero14.jpg" alt=""></a></div>
+    
+            </div>
+        </div>
+    </section><br><br><br>
+
+
+    <section class="caviar-awards-area" id="awards">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-2">
+                    <div class="section-heading">
+                        <a href="https://plan-et.myportfolio.com/work"><h2>Auspicio </h2></a><br>
+                    </div>
+
+                </div>
+
+
+
+                <div class="col-12 col-md-9 ml-md-auto">
+                    <div   class="caviar-awards d-sm-flex justify-content-between" >
+                        <img src="img/awards-img/campestre.jpg" alt="">
+                        <img src="img/awards-img/mikhuna.jpg" alt="">
+                        <img src="img/awards-img/munay.jpg" alt="">
+                        <img src="img/awards-img/planet.jpg" alt="">
+                        <img src="img/awards-img/qhapaq.jpg" alt="">
+                        <img src="img/awards-img/quechua.jpg" alt="">
+                        <img src="img/awards-img/shanti.jpg" alt="">
+                        <img src="img/awards-img/tanta.jpg" alt="">
+                        
+                    </div>
+                    
+                </div>
+
+                
+            </div>
+            
+        </div>
+    <a href="https://plan-et.myportfolio.com/work" class="btn caviar-btn"><span></span>Saber más</a>
+
+    </section>
+    
+    <!-- ****** Awards Area End ****** -->
+
+    <!-- ****** Testimonials Area Start ****** -->
+    <section class="caviar-testimonials-area" id="testimonial">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="testimonials-content">
+                        <div class="section-heading text-center">
+                            <h2>Opiniones</h2>
+                        </div>
+                        <div class="caviar-testimonials-slides owl-carousel">
+                            <!-- Single Testimonial Area -->
+                            <div class="single-testimonial">
+                                <div class="testimonial-thumb-name d-flex align-items-center">
+                                    <img src="img/testimonial-img/opin11.jpg" alt="">
+                                    <div class="tes-name">
+                                        <h5>Fer Verástegui</h5>
+                                        <p>1 de enero</p>
+                                    </div>
+                                </div>
+                                <p>Uno de mis lugares favoritos en Jauja Alma Andina - Fundo Ecoturístico 😊. 
+                                    Queda en Viscap a 5 minutos del aeropuerto! 100% recomendado! 
+                                    Tiene bungalows donde te puedes hospedar y también platos típicos de la región!
+                                </p>
+                            </div>
+                            <!-- Single Testimonial Area -->
+                            <div class="single-testimonial">
+                                <div class="testimonial-thumb-name d-flex align-items-center">
+                                    <img src="img/testimonial-img/opin2.jpg" alt="">
+                                    <div class="tes-name">
+                                        <h5>Cindy Rodriguez</h5>
+                                        <p>8 de Junio</p>
+                                    </div>
+                                </div>
+                                <p>Sonríe ❤  que sólo tu sabes lo valiente y Guerrera que eres, que cada segundo vivido te hizo más fuerte, y que hoy sigues siendo noble como una niña con una sonrisa sincera pero a la vez una mujer que sabe lo que quiere y merece.🌷 Que la gratitud es valiosa por todo lo que nos rodea 🥰.
+                                    #ama #Vive #sonrie #sueña 
+                                    🍁Alma Andina - Fundo Ecoturístico</p>
+                            </div>
+                            <!-- Single Testimonial Area -->
+                            <div class="single-testimonial">
+                                <div class="testimonial-thumb-name d-flex align-items-center">
+                                    <img src="img/testimonial-img/1.jpg" alt="">
+                                    <div class="tes-name">
+                                        <h5>Qhali Alcalina</h5>
+                                        <p>18 de Julio</p>
+                                    </div>
+                                </div>
+                                <p>Gracias a Alma Andina - Fundo Ecoturístico por la preferencia!
+                                    Siempre brindando lo mejor!!!
+                                    Apoyo entre Emprendedores Jaujinos ❤️
+                                    💚 Haz tu pedido ya‼️
+                                    https://tinyurl.com/QhaliAguAlcalina
+                                    Qhali mejora tu vida ❤️
+                                    @AlmaAndinaPeru  
+                                    #AlmaAndina</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ****** Testimonials Area End ****** -->
+
+    <!-- ****** Reservation Area Start ****** -->
+    <section class="caviar-reservation-area d-md-flex align-items-center" id="reservation">
+        <div class="reservation-form-area d-flex justify-content-end">
+            <div class="reservation-form">
+                <div class="section-heading">
+                    <h2>Reservar</h2>
+                </div>
+                <form action="#">
+                    <div class="row">
+
+                        <div class="col-12 col-lg-6">
+                            <input type="text" class="form-control" placeholder="Nombre">
+                        </div>
+                        <div class="col-12">
+                            <textarea name="reservation-message" class="form-control" id="reservationMessage" cols="30" rows="10" placeholder="Asunto..."></textarea>
+                        </div>
+                        <div class="col-12">
+                            <a href="https://api.whatsapp.com/send?phone=51978581551&app=facebook&entry_point=page_cta&fbclid=IwAR2CIXVpqS49yR3lJ-ecB5sqNAuDotGvlBFFjyzDP9p0hvaRoWFIPAq3SyI" class="btn caviar-btn"><span></span>Consultar</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="reservation-side-thumb wow fadeInRightBig" data-wow-delay="0.5s">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3905.709583415725!2d-75.45562868579182!3d-11.785486990302319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x910ecf03c2244b9d%3A0x9b30ffa017276255!2sFundo%20Eco%20tur%C3%ADstico%20%22%20ALMA%20ANDINA%22!5e0!3m2!1ses-419!2spe!4v1660258778113!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <!-- ****** Reservation Area End ****** -->
+
+    <!-- ****** Footer Area Start ****** -->
+    <footer class="caviar-footer-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer-text">
+                        <a href="#" class="navbar-brand">Alma Andina |Fundo-Ecoturístico</a>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos los derechos reservados <i class="fa fa-heart-o" aria-hidden="true"></i>  <a href="https://colorlib.com" target="_blank"></a></p>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ****** Footer Area End ****** -->
+
+    <!-- Jquery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap-4 js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/others/plugins.js"></script>
+    <!-- Active JS -->
+    <script src="js/active.js"></script>
+</body>
